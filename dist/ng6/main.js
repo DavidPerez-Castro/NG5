@@ -146,7 +146,7 @@ var AppRoutingModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n\n<ul>\n\n  <li><a routerLink=\"\">Home</a> </li>\n  <li><a routerLink=\"about/48 \">About</a> </li>\n</ul>\n\n\n<router-outlet></router-outlet>\n"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n\n<h1>By David Pérez</h1>\n<ul>\n  <li><a routerLink=\"\">Home</a> </li>\n  <li><a routerLink=\"about/48 \">About</a> </li>\n</ul>\n\n\n<router-outlet></router-outlet>\n"
 
 /***/ }),
 
@@ -279,7 +279,7 @@ var DataService = /** @class */ (function () {
         this.http = http;
         this.goals = new rxjs__WEBPACK_IMPORTED_MODULE_2__["BehaviorSubject"](['La meta inicial', 'Otra meta :P']);
         this.goal = this.goals.asObservable();
-        this.apiURL = 'http://104.198.244.0:5022';
+        this.apiURL = 'http://104.198.244.0:5044';
         // Http Options
         this.httpOptions = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]({
